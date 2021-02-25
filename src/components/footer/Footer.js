@@ -5,14 +5,14 @@ import FooterNav from '../footerNav/FooterNav';
 
 function Footer() {
 
-  const [footerNav, setFooterNav] = useState([
+  const [footerNav] = useState([
     {id:1, item: 'Contacto'},
     {id:2, item: 'Preguntas frecuentes'},
     {id:3, item: 'Distribuidores'},
     {id:4, item: 'Politica de privacidad'},
     {id:5, item: 'Devoluciones'}
   ]);
-  const [footerNav2, setFooterNav2] = useState([
+  const [footerNav2] = useState([
     {id:1, item: 'La Bola 9'},
     {id:2, item: 'Completos certificados'},
     {id:3, item: 'Garantía'},

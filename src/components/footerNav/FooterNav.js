@@ -1,11 +1,11 @@
 import React from 'react';
 
 function FooterNav({footerNav}) {
-  const {id, item} = footerNav
+  const {item} = footerNav
   return (
     
     <div>
-      <a href="">
+      <a href="a">
         <li>{item}</li>
       </a>
     </div>

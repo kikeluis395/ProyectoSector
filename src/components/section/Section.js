@@ -1,10 +1,9 @@
 import React from "react";
 import "./Section.css";
-import Img1 from "../../media/01.png";
 import Arrow from "../../media/arrow.png";
 function Section({section}) {
 
-  const {numero, descripcion, titulo, id, img} = section;
+  const {numero, descripcion, titulo, img} = section;
 
   return (
     
@@ -18,7 +17,7 @@ function Section({section}) {
                 {descripcion}
               </p>
               <div className="content__read">
-                <a href="">Leer más</a>
+                <a href="a">Leer más</a>
                 <img src={Arrow} alt="flecha" />
               </div>
             </div>
