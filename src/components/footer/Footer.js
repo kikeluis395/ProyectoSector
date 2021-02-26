@@ -32,7 +32,7 @@ function Footer() {
             <ul>
               {footerNav.map((footer) => 
                 <FooterNav
-                  key = {FooterNav.id}
+                  key = {footer.id}
                   footerNav = {footer}
                 />
               )}
@@ -43,7 +43,7 @@ function Footer() {
             <ul>
               {footerNav2.map((footer) => 
                 <FooterNav
-                  key = {FooterNav.id}
+                  key = {footer.id}
                   footerNav = {footer}
                 />
               )}
